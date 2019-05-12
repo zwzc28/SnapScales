@@ -11,7 +11,14 @@ Linux
 7. open other terminal, cd SnapScales, ./node_modules/.bin/electron . then wait 10 seconds.
 
 Show only a few pages:
+![Image text](https://github.com/jiangyizhou1009/SnapScales/blob/master/img/Snipaste_2019-05-12_23-49-12.png)
+
 ![Image text](https://github.com/jiangyizhou1009/SnapScales/blob/master/img/Snipaste_2019-05-12_23-51-48.png)
 
+![Image text](https://github.com/jiangyizhou1009/SnapScales/blob/master/img/Snipaste_2019-05-12_23-53-25.png)
+
+![Image text](https://github.com/jiangyizhou1009/SnapScales/blob/master/img/Snipaste_2019-05-12_23-57-58.png)
+
+![Image text](https://github.com/jiangyizhou1009/SnapScales/blob/master/img/Snipaste_2019-05-12_23-58-32.png)
 
 Next I will install on windows and Mac OS 
