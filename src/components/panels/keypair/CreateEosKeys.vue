@@ -2,14 +2,14 @@
 	<section>
 		<section class="full-panel center-fold inner with-action">
 			<section class="centered">
-				<h1>EOS Key Created</h1>
+				<h1>SnapScale Key Created</h1>
 				<br>
-				<img class="eos-logo" src="../../../assets/create_eos.png" />
+				<img class="eos-logo" style="height: 100px;" src="../../../assets/snap_scale.png" />
 				<br>
 				<br>
 
 				<section style="max-width:500px;">
-					You can either click the button below to create an EOS Account on top of the key you just created or click the Back button above
+					You can either click the button below to create an SnapScale Account on top of the key you just created or click the Back button above
 					to go back to the dashboard.
 					<br>
 					<br>

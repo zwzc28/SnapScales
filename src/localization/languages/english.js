@@ -98,7 +98,7 @@ const Locale = {
 	[GENERIC.RefreshBalances]:() => `Refresh Balances`,
 	[GENERIC.Browse]:() => `Browse`,
 
-	
+
 
 	/****************************************************/
 	/*                                                  */
@@ -170,9 +170,9 @@ const Locale = {
 	[ADD_KEYS.SELECT.ImportTitle]:() => `Import an existing key`,
 	[ADD_KEYS.SELECT.ImportDescription]:() => `If you already have a key and want to import it into Scatter`,
 	[ADD_KEYS.SELECT.ImportButton]:() => `Import Key`,
-	[ADD_KEYS.SELECT.CreateEosTitle]:() => `Create a new EOS account`,
+	[ADD_KEYS.SELECT.CreateEosTitle]:() => `Create a new SnapScale account`,
 	[ADD_KEYS.SELECT.CreateEosDescription]:() => `We'll quickly generate two keys for you`,
-	[ADD_KEYS.SELECT.CreateEosButton]:() => `EOS account`,
+	[ADD_KEYS.SELECT.CreateEosButton]:() => `SnapScale account`,
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	[ADD_KEYS.IMPORT.NameLabel]:() => `Key Name`,
 	[ADD_KEYS.IMPORT.NamePlaceholder]:() => `Give this key a name to remember.`,
@@ -195,16 +195,16 @@ const Locale = {
 	[ADD_KEYS.IMPORT_HW.IndexLabel]:() => `Key/Address Index`,
 	[ADD_KEYS.IMPORT_HW.HardwareError]:() => `Hardware Error`,
 	[ADD_KEYS.IMPORT_HW.UnlockLedgerError]:x => `You need to unlock your ledger and open the ${x} Ledger App.`,
-	[ADD_KEYS.IMPORT_HW.UnlockedLiquidEOSError]:() => `You need to unlock your Liquid EOS Hardware Wallet.`,
+	[ADD_KEYS.IMPORT_HW.UnlockedLiquidEOSError]:() => `You need to unlock your Liquid SnapScale Hardware Wallet.`,
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	[ADD_KEYS.EOS_KEYS.OwnerDescription]:() =>
 		`This is your master key which has total control over your account. 
 		Do not keep it in Scatter unless you absolutely need it`,
 	[ADD_KEYS.EOS_KEYS.ActiveDescription]:() =>
 		`This is the key you will use with applications. It is what you want to keep imported into Scatter.`,
-	[ADD_KEYS.EOS_KEYS.CreateEosAccountTitle]:() => `Use these keys to create an EOS account.`,
+	[ADD_KEYS.EOS_KEYS.CreateEosAccountTitle]:() => `Use these keys to create an SnapScale account.`,
 	[ADD_KEYS.EOS_KEYS.CreateEosAccountDescription]:() =>
-		`You can not instantly use EOS with just keys, you need to create an account with them.`,
+		`You can not instantly use SnapScale with just keys, you need to create an account with them.`,
 	[ADD_KEYS.EOS_KEYS.CreateEosAccountButton]:() => `Create Account`,
 
 
@@ -213,7 +213,7 @@ const Locale = {
 	/*               CREATE EOS ACCOUNT                 */
 	/*                                                  */
 	/****************************************************/
-	[CREATE_EOS.DisclaimerTitle]:() => `Accounts on the EOS blockchain must be paid for to be able to be used.`,
+	[CREATE_EOS.DisclaimerTitle]:() => `Accounts on the SnapScale blockchain must be paid for to be able to be used.`,
 	[CREATE_EOS.AccountNameLengthError]:() => `Account name must be 12 characters long.`,
 	[CREATE_EOS.AccountNameFormattingError]:() => `Account name must be lowercase letters only.`,
 	[CREATE_EOS.SelectCreatorError]:() => `Please select an account creator first.`,
@@ -228,7 +228,7 @@ const Locale = {
 	[CREATE_EOS.ACCOUNT.ActionBarButton]:() => `Create Account`,
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	[CREATE_EOS.EXCHANGE.ChangeName]:() => `Want to change names?`,
-	[CREATE_EOS.EXCHANGE.InfoTitle]:() => `You need to pay for the resources needed to create accounts on the EOS blockchain.`,
+	[CREATE_EOS.EXCHANGE.InfoTitle]:() => `You need to pay for the resources needed to create accounts on the SnapScale blockchain.`,
 	[CREATE_EOS.EXCHANGE.InfoSubtitle]:() => `All of the extra funds you send will be transferred to the account.`,
 	[CREATE_EOS.EXCHANGE.UseNameButton]:() => `Use Name`,
 	[CREATE_EOS.EXCHANGE.ExchangeFieldParts]:() => [
@@ -237,7 +237,7 @@ const Locale = {
 		`with`,             // EOS5kd....
 		`as the memo`,
 	],
-	[CREATE_EOS.EXCHANGE.SentTitle]:() => `After sending EOS from an exchange with the above details, copy the transaction ID here.`,
+	[CREATE_EOS.EXCHANGE.SentTitle]:() => `After sending SnapScale from an exchange with the above details, copy the transaction ID here.`,
 	[CREATE_EOS.EXCHANGE.SentSubtitle]:() => `You must wait for the transaction to be irreversible, this takes around 3 minutes.`,
 	[CREATE_EOS.EXCHANGE.ActionBarButton]:() => `Create Account`,
 	/////////////////////////////////////////////////////////////////////////////////////////////////
@@ -256,14 +256,14 @@ const Locale = {
 	[KEYPAIR.DASHBOARD.STATES.AddAccount]:() => `Add Account`,
 	[KEYPAIR.DASHBOARD.STATES.LinkedAccounts]:() => `Linked Accounts`,
 	[KEYPAIR.DASHBOARD.STATES.KeysAndBlockchains]:() => `Keys & Blockchains`,
-	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.CreateEosAccountLabel]:() => `Create a new EOS account`,
+	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.CreateEosAccountLabel]:() => `Create a new SnapScale account`,
 	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.CreateEosAccountDescription]:() =>
 		`If you want to create a new EOS account on top of this key.`,
 	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.CreateEosAccountButton]:() => `Create Account`,
-	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.LinkEosAccountLabel]:() => `Link existing EOS account`,
+	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.LinkEosAccountLabel]:() => `Link existing SnapScale account`,
 	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.LinkEosAccountDescription]:() =>
 		`If you already have an EOS account, but it's not being imported automatically.`,
-	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.AccountNetworkLabel]:() => `Link existing EOS account`,
+	[KEYPAIR.DASHBOARD.ADD_ACCOUNT.AccountNetworkLabel]:() => `Link existing SnapScale account`,
 	[KEYPAIR.DASHBOARD.ERRORS.InvalidWalletName]:() => `Enter a name for this Key`,
 	[KEYPAIR.DASHBOARD.ERRORS.WalletNameExists]:() => `A Key with this name already exists`,
 	/////////////////////////////////////////////////////////////////////////////////////////////////

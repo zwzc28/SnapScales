@@ -215,7 +215,7 @@
 
 	        GET(`networks?flat=true`)
                 .then(networks => {
-                	this.knownNetworks = networks
+                    this.knownNetworks = networks
                         .map(x => Network.fromJson(x));
 
                 	if(this.addableNetworks.length) this.knownNetwork = this.addableNetworks[0];

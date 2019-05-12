@@ -116,8 +116,8 @@
 
 		        if(this.createdKeys.length){
 			        PopupService.push(Popup.prompt(
-				        'Created EOS Keys',
-				        `You created EOS keys without creating an EOS account, do you want to remove them?`,
+				        'Created SnapScale Keys',
+				        `You created SnapScale keys without creating an EOS account, do you want to remove them?`,
 				        removed => {
 					        if(!removed) return this.createdKeys = [];
 					        this.createdKeys.map(async id => {
