@@ -10,5 +10,8 @@ Linux
 5. sudo npm start.
 7. open other terminal, cd SnapScales, ./node_modules/.bin/electron . then wait 10 seconds.
 
+Show only a few pages:
+![Image text](https://github.com/jiangyizhou1009/SnapScales/blob/master/img/Snipaste_2019-05-12_23-51-48.png)
+
 
 Next I will install on windows and Mac OS 
